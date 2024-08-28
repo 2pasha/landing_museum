@@ -16,7 +16,7 @@
   @include onDesktop {
     padding-top: 15px;
   }
-  
+
   &__title {
     padding: 250px 0 20px;
     display: block;
@@ -28,11 +28,29 @@
     line-height: 100%;
     color: #000;
 
-    @media (min-width: 321px) and (max-width: 600px) {
-      display: inline-block;
-      margin: 20px 0 10px;
-      padding: 0;
-      background-color: #fff;
+    @media (min-width: 321px) and (max-width: 376px) {
+      padding-top: 300px;
+    }
+
+    @media (min-width: 377px) and (max-width: 426px) {
+      padding-top: 330px;
+    }
+
+    @media (min-width: 426px) and (max-width: 476px) {
+      padding-top: 370px;
+    }
+
+    @media (min-width: 476px) and (max-width: 526px) {
+      padding-top: 410px;
+    }
+
+    @media (min-width: 526px) and (max-width: 576px) {
+      padding-top: 450px;
+    }
+
+    @media (min-width: 577px) and (max-width: 600px) {
+      padding: 70px 0 38px;
+      text-align: start;
     }
 
     @include onDesktop {
@@ -65,12 +83,12 @@
     position: relative;
     border: 1px solid $colorGreen;
     cursor: pointer;
-    
+
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
     color: $colorBlack;
-    
+
     @media (min-width: 321px) and (max-width: 600px) {
       margin: 10px 0;
       padding: 0;
@@ -102,7 +120,7 @@
       top: -60px;
       transform: rotate(270deg);
       margin-right: -20px;
-      
+
       &-text {
         position: relative;
         padding-left: 90px;
@@ -110,7 +128,7 @@
         font-size: 14px;
         line-height: 100%;
         color: #687480;
-        
+
         &::before {
           position: absolute;
           content: "";
