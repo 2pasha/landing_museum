@@ -53,46 +53,48 @@
     </header>
 
     <nav class="page__menu menu" id="menu">
-      <div class="container">
-        <div class="menu__content">
-          <div class="menu__nav">
-            <div class="top-actions menu__nav--icon">
-              <a href="#" class="icon icon--cross"></a>
+      <div class="menu__wrapper">
+        <div class="container menu__container">
+          <div class="menu__content">
+            <div class="menu__nav">
+              <div class="top-actions menu__nav--icon">
+                <a href="#" class="icon icon--cross"></a>
+              </div>
+              <ul class="menu__list list-nav">
+                <li class="list-nav__item">
+                  <a href="#gallery" class="list-nav__link">Галерея</a>
+                </li>
+
+                <li class="list-nav__item">
+                  <a href="#subscribe" class="list-nav__link">Про Нас</a>
+                </li>
+
+                <li class="list-nav__item">
+                  <a href="#events" class="list-nav__link">Виставки та<br> події</a>
+                </li>
+
+                <li class="list-nav__item">
+                  <a href="#footer" class="list-nav__link">Контакти</a>
+                </li>
+              </ul>
             </div>
-            <ul class="menu__list list-nav">
-              <li class="list-nav__item">
-                <a href="#gallery" class="list-nav__link">Галерея</a>
-              </li>
 
-              <li class="list-nav__item">
-                <a href="#subscribe" class="list-nav__link">Про Нас</a>
-              </li>
+            <div class="schedule nav__schedule">
+              <h3 class="schedule--title">Графік роботи</h3>
 
-              <li class="list-nav__item">
-                <a href="#events" class="list-nav__link">Виставки та<br> події</a>
-              </li>
-
-              <li class="list-nav__item">
-                <a href="#footer" class="list-nav__link">Контакти</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="schedule nav__schedule">
-            <h3 class="schedule--title">Графік роботи</h3>
-
-            <div class="nav__schedule--wrap">
-              <p class="schedule--schedule nav__schedule--schedule">
-                <span class="bold">12:00 — 20:00</span> середа <br>
-                <span class="bold">12:00 — 20:00</span> четвер <br>
-                <span class="bold">12:00 — 20:00</span> п’ятниця <br>
-                <span class="bold">11:00 — 19:00</span> субота <br>
-                <span class="bold">11:00 — 19:00</span> неділя
-              </p>
-              <p class="schedule--descriptions nav__schedule--descriptions">
-                <span class="bold">Вихідні:</span> понеділок, вівторок <br>
-                Каса припиняє роботу за 1 годину до закриття музею
-              </p>
+              <div class="nav__schedule--wrap">
+                <p class="schedule--schedule nav__schedule--schedule">
+                  <span class="bold">12:00 — 20:00</span> середа <br>
+                  <span class="bold">12:00 — 20:00</span> четвер <br>
+                  <span class="bold">12:00 — 20:00</span> п’ятниця <br>
+                  <span class="bold">11:00 — 19:00</span> субота <br>
+                  <span class="bold">11:00 — 19:00</span> неділя
+                </p>
+                <p class="schedule--descriptions nav__schedule--descriptions">
+                  <span class="bold">Вихідні:</span> понеділок, вівторок <br>
+                  Каса припиняє роботу за 1 годину до закриття музею
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -427,7 +429,7 @@
     <a
       href="#top"
       class="icon icon--to-top"
-      id='toTopButton'
+      id="toTopButton"
     ></a>
     <script src="scripts/icon-to-top.js"></script>
     <script src="./scripts/main.js"></script>

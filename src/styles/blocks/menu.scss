@@ -1,9 +1,18 @@
 .menu {
   box-sizing: border-box;
   height: max-content;
-  background-color: $colorGreen;
   color: #fff;
-  
+
+  &__container {
+    background-color: $colorGreen;
+  }
+
+  &__wrapper {
+    height: 100vh;
+    backdrop-filter: blur(3px);
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
   &__content {
     display: flex;
     flex-direction: column;
@@ -13,13 +22,13 @@
       padding: 40px 0;
       flex-direction: row;
     }
-    
+
     @include onDesktop {
       flex-direction: row;
       padding: 48px 0;
     }
   }
-  
+
   &__nav {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     margin-bottom: 24px;
@@ -35,7 +44,7 @@
       border-right: 1px solid rgba(255, 255, 255, 0.5);
       border-bottom-color: transparent;
     }
-    
+
     &--icon {
       position: absolute;
     }
@@ -49,7 +58,7 @@
     @include onDesktop {
       margin-left: 102px;
     }
-    
+
     &--wrap {
       @include onTablet {
         display: flex;
