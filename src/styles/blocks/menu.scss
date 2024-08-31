@@ -1,16 +1,12 @@
 .menu {
   box-sizing: border-box;
-  height: max-content;
+  height: 100vh;
+  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
 
   &__container {
     background-color: $colorGreen;
-  }
-
-  &__wrapper {
-    height: 100vh;
-    backdrop-filter: blur(3px);
-    background-color: rgba(0, 0, 0, 0.5);
   }
 
   &__content {
